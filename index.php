@@ -15,10 +15,13 @@
 									<div class="content_entry"><?php the_content(); ?></div>
 										<div class="footer_entry">
 											<underline><a href="<?php the_permalink() ?>"><b><?php comments_number( 'Keine Kommentare', '1 Kommentar', '% Kommentare' ); ?></b></a></underline>
-											<hr>
 										</div>
-						 </div>
-				  <?php endwhile; endif; ?>
+							</div>
+				  <?php endwhile; ?>
+ 
+			<p align="center"><?php next_posts_link('&laquo; &Auml;ltere Eintr&auml;ge') ?> | <?php previous_posts_link('Neuere Eintr&auml;ge &raquo;') ?></p>
+ 
+      <?php endif; ?>
 			 
 			   </div><!-- main -->
 			 
