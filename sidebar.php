@@ -25,15 +25,15 @@
 <ul>
    <?php wp_get_archives('type=monthly'); ?>
 </ul>
- 
+
 <h2>Seiten</h2>
 <ul>
    <?php wp_list_pages(); ?>
 </ul>
- 
+
 <h2>Blogroll</h2>
 <ul>
    <?php wp_list_bookmarks(); ?>
 </ul>
- 
+
 <?php endif; ?>

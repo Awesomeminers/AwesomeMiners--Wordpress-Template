@@ -17,11 +17,13 @@
  
 <div id="wrapper">
 
-	<div id="pattern_top"></div>
+	<div id="pattern_top">
+		<h2><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h2>
+		<h3><?php bloginfo('description'); ?></h3>
+	</div>
 
 	   <div id="header">
-			<h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
-			<h3><?php bloginfo('description'); ?></h3>
+			<img src="/images/logo.png">
 	   </div><!-- header -->
 
 			<div id="menu_bar">

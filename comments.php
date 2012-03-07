@@ -3,7 +3,8 @@
  
       <div class="comment" id="comment-<?php comment_ID() ?>">
  
-         <small class="commentmetadata"><?php comment_author_link() ?> <strong>|</strong> am <?php comment_date('j. F Y') ?> um <?php comment_time('H:i') ?> Uhr</small>
+         <underline><b><?php comment_author_link() ?></b> sagte am <b><?php comment_date('j. F Y') ?></b> um <b><?php comment_time('H:i') ?></b> :</underline>
+		 <br><br>
  
          <?php comment_text() ?>
  
@@ -11,7 +12,7 @@
             <strong>Achtung: Dein Kommentar muss erst noch freigegeben werden.</strong><br />
          <?php endif; ?>
  
-      </div>
+		</div>
 
    <?php endforeach; /* end for each comment */ ?>
 
@@ -37,13 +38,8 @@
    </p>
  
    <p>
-      <input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="22" tabindex="3" />
-      <label for="url">Webseite</label>
-   </p>
- 
-   <p>
       Kommentar
-      <textarea name="comment" id="comment" style="width: 100%;" rows="10" tabindex="4"></textarea>
+      <textarea name="comment" id="comment" style="width: 490px;" rows="10" tabindex="4"></textarea>
    </p>
  
    <p>

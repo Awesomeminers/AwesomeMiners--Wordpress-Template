@@ -38,6 +38,11 @@ color: rgba(255, 255, 255, .3);
 height: 0.1px;
 }
 
+img {
+  border:none;
+}
+
+
 
 
 #wrapper	{
@@ -69,7 +74,7 @@ height: 0.1px;
 	background-repeat: no-repeat;
 	height: 240px;
 	width: 970px;
-	padding-top: 10px;
+	padding-top: 30px;
 	padding-left: 30px;
 	margin-right: auto;
 	margin-left: auto;
@@ -114,14 +119,16 @@ height: 0.1px;
 
 
 	#sidebar    {
-		width: 210px;
-		padding-left: 20px;
-		padding-right: 20px;
+		width: 190px;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
 		float: right;
 		margin-top: 10px;
 		margin-bottom: 10px;
 		margin-right: 10px:
-		border-style: solid;*
+		border-style: solid;
 		border: 1px solid #a9a9a9;
 		background: rgba(0, 0, 0, .1);
 	}
@@ -177,6 +184,48 @@ height: 0.1px;
 		text-align: center;
 
 	}	
+
+
+#kommentare	{
+border-style:solid;
+border: 1px solid #a9a9a9;
+background: rgba(255, 255, 255, .1);
+margin-right: auto;
+margin-left: auto;
+width: 600px;
+margin-top: 50px;
+margin-bottom: 30px;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+
+.comment	{
+border-style:solid;
+border: 1px solid #a9a9a9;
+background: rgba(255, 255, 255, .5);
+margin-right: auto;
+margin-left: auto;
+width: 565px;
+margin-top: 5px;
+margin-bottom: 15px;
+padding: 10px;
+}
+
+
+#kommentar_formular	{
+border-style:solid;
+border: 1px solid #a9a9a9;
+background: rgba(255, 255, 255, .1);
+padding-top: 5px;
+padding-left: 5px;
+padding-right: 5px;
+width: 500px;
+margin-top: 80px;
+margin-bottom: 40px;
+margin-left: 15px;
+}
 
 
 /* ------Menu------ */
@@ -291,6 +340,7 @@ input:active,
 	border-color: #000;
 }
 /* ------End Forms------ */
+
 
 
 
