@@ -16,18 +16,23 @@
 <body>
  
 <div id="wrapper">
+
 	<div id="pattern_top"></div>
+
 	   <div id="header">
 			<h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
 			<h3><?php bloginfo('description'); ?></h3>
 	   </div><!-- header -->
+
 			<div id="menu_bar">
-				<div id="nav">
-					<li>
-						<a href="<?php echo get_option('home'); ?>/" class="on">Blog</a>
-					</li>
+
+					<div id="nav">
+						<li>
+							<a href="<?php echo get_option('home'); ?>/" class="on">Blog</a>
+						</li>
 						<ul>
 							<?php wp_list_pages('depth=1&title_li=&sort_column=menu_order'); ?>
 						</ul>
-				</div> <!-- nav -->
+					</div> <!-- nav -->
+
 			</div><!-- menu_bar -->

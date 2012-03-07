@@ -12,7 +12,9 @@
          <?php endif; ?>
  
       </div>
+
    <?php endforeach; /* end for each comment */ ?>
+
 </div><!-- kommentare -->
 
 

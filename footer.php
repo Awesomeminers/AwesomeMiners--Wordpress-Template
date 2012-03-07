@@ -1,6 +1,8 @@
- <div id="footer">
-      <div id="footer_bar">Theme (c) David G. 2011-2012</div>
-   </div><!-- footer -->
+	 <div id="footer">
+
+		  <div id="footer_bar">Theme (c) David G. 2011-2012</div>
+
+	 </div><!-- footer -->
  
 </div><!-- wrapper -->
  
