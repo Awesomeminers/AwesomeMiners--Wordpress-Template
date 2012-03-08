@@ -6,10 +6,10 @@
  
    <title><?php wp_title(' - ', true, 'right'); ?> <?php bloginfo('name'); ?></title>
  
-   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
-   <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/blueprint/typography.css" type="text/css" media="screen, projection">
- 
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/blueprint/typography.css" type="text/css" media="screen, projection">
+
    <?php wp_head(); ?>
  
 </head>
@@ -19,11 +19,10 @@
 
 	<div id="pattern_top">
 		<h2><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h2>
-		<h3><?php bloginfo('description'); ?></h3>
 	</div>
 
 	   <div id="header">
-			<img src="/images/logo.png">
+			<a href="<?php bloginfo('url'); ?>"><img src="wp-content/themes/test_design/images/logo.png"></a>
 	   </div><!-- header -->
 
 			<div id="menu_bar">

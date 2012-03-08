@@ -1,4 +1,7 @@
 <div id="kommentare">
+	
+  <underline><?php comments_number( 'Keine Kommentare', '1 Kommentar', '% Kommentare' ); ?></underline><br><br>
+
    <?php foreach ($comments as $comment) : ?>
  
       <div class="comment" id="comment-<?php comment_ID() ?>">
