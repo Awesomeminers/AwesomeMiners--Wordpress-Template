@@ -66,7 +66,7 @@ A:active {color: #af7052;}
 
 
 #pattern_top	{
-	background-image: url('images/pattern_top.png');
+	background-image: url('images/pattern_top_light.png');
 	background-repeat:repeat-y;
 	height: 70px;
 	width: 990px;
@@ -91,7 +91,7 @@ A:active {color: #af7052;}
 
 
 #menu_bar		{
-	background-image: url('images/pattern_menu.png');
+	background-image: url('images/pattern_menu_light.png');
 	background-repeat:repeat-y;
 	height: 75px;
 	width: 960px;
@@ -170,7 +170,7 @@ A:active {color: #af7052;}
 
 #footer     {
 	clear: both;
-	background-image: url('images/pattern_footer.png');
+	background-image: url('images/pattern_footer_light.png');
 	background-repeat:repeat-y;
 	height: 95px;
 	width: 1000px;
