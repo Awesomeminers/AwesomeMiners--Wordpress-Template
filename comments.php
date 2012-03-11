@@ -1,4 +1,4 @@
-<div id="kommentare">
+<div id="comments">
 	
   <underline><?php comments_number( 'Keine Kommentare', '1 Kommentar', '% Kommentare' ); ?></underline><br><br>
 
@@ -30,7 +30,7 @@
 
 
 
-<div id="kommentar_formular">
+<div id="comments_form">
  
 <h3 id="respond">Kommentar schreiben</h3>
  
